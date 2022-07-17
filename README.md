@@ -1,5 +1,7 @@
 # zz-ui
 
+[zz-ui]()
+
 ## 使用 monorepo
 
 > 使用 yarn workspace
@@ -54,4 +56,10 @@ yarn add cross-env -D -W
 
 ```
 yarn add rimraf -D -W
+```
+
+## 生成组件模板
+
+```
+yarn add plop -D -W
 ```
