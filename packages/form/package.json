@@ -1,6 +1,6 @@
 {
   "name": "zz-form",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "form",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "del": "rimraf dist"
   },
-  "keywords": ["yvshare"],
+  "keywords": [
+    "yvshare"
+  ],
   "author": "https://www.yvshare.cn",
   "license": "MIT"
 }

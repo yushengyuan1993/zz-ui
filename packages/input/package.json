@@ -1,6 +1,6 @@
 {
   "name": "zz-input",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "input",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,7 +9,9 @@
     "build": "rollup -c",
     "del": "rimraf dist"
   },
-  "keywords": ["yvshare"],
+  "keywords": [
+    "yvshare"
+  ],
   "author": "https://www.yvshare.cn",
   "license": "MIT"
 }
