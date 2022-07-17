@@ -3,8 +3,8 @@
   "workspaces": [
     "packages/*"
   ],
-  "name": "zz-ui",
-  "version": "1.0.0",
+  "name": "zz-ui-simple",
+  "version": "0.0.5",
   "description": "a simple ui library",
   "main": "index.js",
   "module": "index.js",
