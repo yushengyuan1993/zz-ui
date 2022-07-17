@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "del": "rimraf dist"
   },
-  "keywords": [],
+  "keywords": ["yvshare"],
   "author": "https://www.yvshare.cn",
   "license": "MIT",
   "dependencies": {

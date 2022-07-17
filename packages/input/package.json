@@ -9,7 +9,7 @@
     "build": "rollup -c",
     "del": "rimraf dist"
   },
-  "keywords": [],
+  "keywords": ["yvshare"],
   "author": "https://www.yvshare.cn",
   "license": "MIT"
 }
