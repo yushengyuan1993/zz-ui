@@ -43,7 +43,7 @@ yarn add rollup rollup-plugin-terser rollup-plugin-vue vue-template-compiler -D 
 ### 打包所有组件
 
 ```
-yarn add @rollup/plugin-json rollup-plugin-postcss @rollup/plugin-node-resolve -D -W
+yarn add @rollup/plugin-json rollup-plugin-postcss @rollup/plugin-babel @rollup/plugin-node-resolve -D -W
 ```
 
 ## 环境变量

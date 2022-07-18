@@ -3,6 +3,7 @@ import path from 'path'
 import json from '@rollup/plugin-json'
 import vue from 'rollup-plugin-vue'
 import postcss from 'rollup-plugin-postcss'
+import babel from '@rollup/plugin-babel'
 import { terser } from 'rollup-plugin-terser'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 
@@ -23,7 +24,8 @@ const plugins = [
     // inject: true,
     // 把 css 放到和js同一目录
     extract: true
-  })
+  }),
+  babel({ babelHelpers: 'bundled' })
 ]
 
 // 如果不是开发环境，开启压缩

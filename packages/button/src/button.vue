@@ -7,10 +7,15 @@
 <script>
 export default {
   name: 'ZzButton',
-  methods: {
-    handleClick (e) {
-      this.$emit('click', e)
+  inheritAttrs: false,
+  setup(_props, { emit }) {
+    const handleClick = e => {
+      emit('click', e)
       e.preventDefault()
+    }
+
+    return {
+      handleClick
     }
   }
 }
