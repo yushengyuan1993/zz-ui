@@ -1,6 +1,6 @@
 {
   "name": "zz-input",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "input",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
